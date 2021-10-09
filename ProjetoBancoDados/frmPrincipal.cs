@@ -51,5 +51,11 @@ namespace ProjetoBancoDados
             frmCliente fc = new frmCliente();
             fc.ShowDialog();
         }
+
+        private void fornecedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFornecedor ff = new frmFornecedor();
+            ff.ShowDialog();
+        }
     }
 }
