@@ -38,3 +38,4 @@ C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\CadastroSQ
 C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\CadastroSQL\CadastroSQL\ProjetoBancoDados\obj\Debug\ProjetoBancoDados.csproj.AssemblyReference.cache
 C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\CadastroSQL\CadastroSQL\ProjetoBancoDados\obj\Debug\ProjetoBancoDados.frmCliente.resources
 C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\CadastroSQL\CadastroSQL\ProjetoBancoDados\obj\Debug\ProjetoBancoDados.frmFornecedor.resources
+C:\Users\Andrey Moura\OneDrive - Etec Centro Paula Souza\TRABALHOS\DS\CadastroSQL\CadastroSQL\ProjetoBancoDados\obj\Debug\ProjetoBancoDados.frmProduto.resources
