@@ -37,7 +37,7 @@ namespace ProjetoBancoDados
             System.Windows.Forms.Label nm_loginLabel;
             System.Windows.Forms.Label cd_senhaLabel;
             this.cadastrosDataSet = new ProjetoBancoDados.CadastrosDataSet();
-            this.tbprodutobindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.tbprodutobindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnSair = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
@@ -62,7 +62,7 @@ namespace ProjetoBancoDados
             nm_loginLabel = new System.Windows.Forms.Label();
             cd_senhaLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cadastrosDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbprodutobindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbprodutobindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // cadastrosDataSet
@@ -80,6 +80,7 @@ namespace ProjetoBancoDados
             this.btnSair.TabIndex = 108;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnImprimir
             // 
@@ -113,6 +114,7 @@ namespace ProjetoBancoDados
             this.btnCancelar.TabIndex = 105;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnSalvar
             // 
@@ -124,6 +126,7 @@ namespace ProjetoBancoDados
             this.btnSalvar.TabIndex = 104;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnExcluir
             // 
@@ -135,6 +138,7 @@ namespace ProjetoBancoDados
             this.btnExcluir.TabIndex = 103;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnAlterar
             // 
@@ -146,6 +150,7 @@ namespace ProjetoBancoDados
             this.btnAlterar.TabIndex = 102;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnNovo
             // 
@@ -157,6 +162,7 @@ namespace ProjetoBancoDados
             this.btnNovo.TabIndex = 101;
             this.btnNovo.Text = "Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // btnProximo
             // 
@@ -168,6 +174,7 @@ namespace ProjetoBancoDados
             this.btnProximo.TabIndex = 100;
             this.btnProximo.Text = "Próximo";
             this.btnProximo.UseVisualStyleBackColor = true;
+            this.btnProximo.Click += new System.EventHandler(this.btnProximo_Click);
             // 
             // btnAnterior
             // 
@@ -179,6 +186,7 @@ namespace ProjetoBancoDados
             this.btnAnterior.TabIndex = 99;
             this.btnAnterior.Text = "Anterior";
             this.btnAnterior.UseVisualStyleBackColor = true;
+            this.btnAnterior.Click += new System.EventHandler(this.btnAnterior_Click);
             // 
             // tbprodutoTableAdapter
             // 
@@ -331,7 +339,7 @@ namespace ProjetoBancoDados
             this.Text = "Cadastro de Produtos";
             this.Load += new System.EventHandler(this.frmProduto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cadastrosDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbprodutobindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbprodutobindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,7 +349,7 @@ namespace ProjetoBancoDados
 
         private CadastrosDataSet cadastrosDataSet;
         private CadastrosDataSetTableAdapters.tbprodutoTableAdapter tbprodutoTableAdapter;
-        private System.Windows.Forms.BindingSource tbprodutobindingSource1;
+        private System.Windows.Forms.BindingSource tbprodutobindingSource;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnImprimir;
         private System.Windows.Forms.Button btnPesquisar;
