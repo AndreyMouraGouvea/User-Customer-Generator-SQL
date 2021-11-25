@@ -5,16 +5,31 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "licaods", "licaods\licaods.csproj", "{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador", "Instalador\Instalador.vdproj", "{229E72B7-A091-41A4-A1E0-BF97D2BA0ADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}.Debug|x86.ActiveCfg = Debug|x86
+		{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}.Debug|x86.Build.0 = Debug|x86
 		{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}.Release|x86.ActiveCfg = Release|x86
+		{A9BED4B9-4ACC-4807-91D5-CFFCF9DD1E72}.Release|x86.Build.0 = Release|x86
+		{229E72B7-A091-41A4-A1E0-BF97D2BA0ADA}.Debug|Any CPU.ActiveCfg = Debug
+		{229E72B7-A091-41A4-A1E0-BF97D2BA0ADA}.Debug|Any CPU.Build.0 = Debug
+		{229E72B7-A091-41A4-A1E0-BF97D2BA0ADA}.Debug|x86.ActiveCfg = Debug
+		{229E72B7-A091-41A4-A1E0-BF97D2BA0ADA}.Debug|x86.Build.0 = Debug
+		{229E72B7-A091-41A4-A1E0-BF97D2BA0ADA}.Release|Any CPU.ActiveCfg = Release
+		{229E72B7-A091-41A4-A1E0-BF97D2BA0ADA}.Release|x86.ActiveCfg = Release
+		{229E72B7-A091-41A4-A1E0-BF97D2BA0ADA}.Release|x86.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
