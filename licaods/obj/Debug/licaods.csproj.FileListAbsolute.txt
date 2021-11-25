@@ -1,0 +1,84 @@
+C:\Users\Aluno\Desktop\licaods\licaods\bin\Debug\licaods.exe.config
+C:\Users\Aluno\Desktop\licaods\licaods\bin\Debug\cadastro.mdf
+C:\Users\Aluno\Desktop\licaods\licaods\bin\Debug\cadastro_log.ldf
+C:\Users\Aluno\Desktop\licaods\licaods\bin\Debug\licaods.exe
+C:\Users\Aluno\Desktop\licaods\licaods\bin\Debug\licaods.pdb
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.menuStrip1.resources
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.frmusuario.resources
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.Properties.Resources.resources
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.csproj.GenerateResource.Cache
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.exe
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.pdb
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.frmcliente.resources
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.frmfornecedor.resources
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.frmproduto.resources
+C:\Users\vanes\Desktop\licaods\licaods\bin\Debug\cadastro.mdf
+C:\Users\vanes\Desktop\licaods\licaods\bin\Debug\cadastro_log.ldf
+C:\Users\vanes\Desktop\licaods\licaods\bin\Debug\licaods.exe.config
+C:\Users\vanes\Desktop\licaods\licaods\bin\Debug\licaods.exe
+C:\Users\vanes\Desktop\licaods\licaods\bin\Debug\licaods.pdb
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.csprojAssemblyReference.cache
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.frmcliente.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.frmfornecedor.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.menuStrip1.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.frmproduto.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.frmusuario.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.Properties.Resources.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.csproj.GenerateResource.cache
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.csproj.CoreCompileInputs.cache
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.exe
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.pdb
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaCliente.resources
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaFornecedor.resources
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.FrmPesquisaProduto.resources
+C:\Users\Aluno\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaUsuario.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\bin\Debug\licaods.exe.config
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.exe
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.pdb
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\bin\Debug\cadastro.mdf
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\bin\Debug\cadastro_log.ldf
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\bin\Debug\licaods.exe
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\bin\Debug\licaods.pdb
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.frmcliente.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.frmfornecedor.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaCliente.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaFornecedor.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.FrmPesquisaProduto.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaUsuario.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.menuStrip1.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.frmproduto.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.frmusuario.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.Properties.Resources.resources
+C:\Users\Aluno\OneDrive - Etec Centro Paula Souza\Desktop\licaods\licaods\obj\Debug\licaods.csproj.GenerateResource.Cache
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaCliente.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaFornecedor.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.FrmPesquisaProduto.resources
+C:\Users\vanes\Desktop\licaods\licaods\obj\Debug\licaods.frmPesquisaUsuario.resources
+D:\Downloads\Projeto Ds com Banco de Dados\ProjetoBancodeDados\licaods\obj\Debug\licaods.csproj.AssemblyReference.cache
+D:\Downloads\Projeto Ds com Banco de Dados\ProjetoBancodeDados\licaods\obj\Debug\licaods.exe
+D:\Downloads\Projeto Ds com Banco de Dados\ProjetoBancodeDados\licaods\obj\Debug\licaods.pdb
+C:\Users\Aluno\Downloads\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.csproj.AssemblyReference.cache
+C:\Users\Aluno\Downloads\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.exe
+C:\Users\Aluno\Downloads\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.pdb
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\bin\Debug\cadastro.mdf
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\bin\Debug\cadastro_log.ldf
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\bin\Debug\licaods.exe.config
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\bin\Debug\licaods.exe
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\bin\Debug\licaods.pdb
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.frmcliente.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.frmfornecedor.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.frmPesquisaCliente.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.frmPesquisaFornecedor.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.FrmPesquisaProduto.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.frmPesquisaUsuario.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.frmPrincipal.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.frmproduto.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.frmusuario.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.login.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.Properties.Resources.resources
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.csproj.GenerateResource.Cache
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.exe
+C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.pdb
