@@ -65,9 +65,9 @@
             this.cd_usuarioLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.cd_usuarioLabel.Location = new System.Drawing.Point(54, 43);
             this.cd_usuarioLabel.Name = "cd_usuarioLabel";
-            this.cd_usuarioLabel.Size = new System.Drawing.Size(60, 20);
+            this.cd_usuarioLabel.Size = new System.Drawing.Size(59, 20);
             this.cd_usuarioLabel.TabIndex = 1;
-            this.cd_usuarioLabel.Text = "codigo:";
+            this.cd_usuarioLabel.Text = "Código";
             // 
             // nm_usuarioLabel
             // 
@@ -75,9 +75,9 @@
             this.nm_usuarioLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.nm_usuarioLabel.Location = new System.Drawing.Point(54, 145);
             this.nm_usuarioLabel.Name = "nm_usuarioLabel";
-            this.nm_usuarioLabel.Size = new System.Drawing.Size(65, 20);
+            this.nm_usuarioLabel.Size = new System.Drawing.Size(64, 20);
             this.nm_usuarioLabel.TabIndex = 3;
-            this.nm_usuarioLabel.Text = "usuario:";
+            this.nm_usuarioLabel.Text = "Usuario";
             // 
             // sg_nivelLabel
             // 
@@ -85,9 +85,9 @@
             this.sg_nivelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.sg_nivelLabel.Location = new System.Drawing.Point(54, 94);
             this.sg_nivelLabel.Name = "sg_nivelLabel";
-            this.sg_nivelLabel.Size = new System.Drawing.Size(44, 20);
+            this.sg_nivelLabel.Size = new System.Drawing.Size(42, 20);
             this.sg_nivelLabel.TabIndex = 5;
-            this.sg_nivelLabel.Text = "nivel:";
+            this.sg_nivelLabel.Text = "Nivel";
             // 
             // nm_loginLabel
             // 
@@ -95,9 +95,9 @@
             this.nm_loginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.nm_loginLabel.Location = new System.Drawing.Point(54, 196);
             this.nm_loginLabel.Name = "nm_loginLabel";
-            this.nm_loginLabel.Size = new System.Drawing.Size(46, 20);
+            this.nm_loginLabel.Size = new System.Drawing.Size(48, 20);
             this.nm_loginLabel.TabIndex = 7;
-            this.nm_loginLabel.Text = "login:";
+            this.nm_loginLabel.Text = "Login";
             this.nm_loginLabel.Click += new System.EventHandler(this.nm_loginLabel_Click);
             // 
             // cd_senhaLabel
@@ -106,9 +106,9 @@
             this.cd_senhaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.cd_senhaLabel.Location = new System.Drawing.Point(54, 247);
             this.cd_senhaLabel.Name = "cd_senhaLabel";
-            this.cd_senhaLabel.Size = new System.Drawing.Size(57, 20);
+            this.cd_senhaLabel.Size = new System.Drawing.Size(56, 20);
             this.cd_senhaLabel.TabIndex = 9;
-            this.cd_senhaLabel.Text = "senha:";
+            this.cd_senhaLabel.Text = "Senha";
             // 
             // cd_usuarioTextBox
             // 
@@ -179,7 +179,7 @@
             this.btnanterior.Name = "btnanterior";
             this.btnanterior.Size = new System.Drawing.Size(100, 30);
             this.btnanterior.TabIndex = 11;
-            this.btnanterior.Text = "anterior";
+            this.btnanterior.Text = "Anterior";
             this.btnanterior.UseVisualStyleBackColor = true;
             this.btnanterior.Click += new System.EventHandler(this.btnanterior_Click);
             // 
@@ -191,7 +191,7 @@
             this.btnproximo.Name = "btnproximo";
             this.btnproximo.Size = new System.Drawing.Size(100, 30);
             this.btnproximo.TabIndex = 12;
-            this.btnproximo.Text = "proximo";
+            this.btnproximo.Text = "Proximo";
             this.btnproximo.UseVisualStyleBackColor = true;
             this.btnproximo.Click += new System.EventHandler(this.btnproximo_Click);
             // 
@@ -203,7 +203,7 @@
             this.btnnovo.Name = "btnnovo";
             this.btnnovo.Size = new System.Drawing.Size(100, 30);
             this.btnnovo.TabIndex = 13;
-            this.btnnovo.Text = "novo";
+            this.btnnovo.Text = "Novo";
             this.btnnovo.UseVisualStyleBackColor = true;
             this.btnnovo.Click += new System.EventHandler(this.btnnovo_Click);
             // 
@@ -215,7 +215,7 @@
             this.btnalterar.Name = "btnalterar";
             this.btnalterar.Size = new System.Drawing.Size(100, 30);
             this.btnalterar.TabIndex = 14;
-            this.btnalterar.Text = "alterar";
+            this.btnalterar.Text = "Alterar";
             this.btnalterar.UseVisualStyleBackColor = true;
             this.btnalterar.Click += new System.EventHandler(this.btnalterar_Click);
             // 
@@ -227,7 +227,7 @@
             this.btnexcluir.Name = "btnexcluir";
             this.btnexcluir.Size = new System.Drawing.Size(100, 30);
             this.btnexcluir.TabIndex = 15;
-            this.btnexcluir.Text = "excluir";
+            this.btnexcluir.Text = "Excluir";
             this.btnexcluir.UseVisualStyleBackColor = true;
             this.btnexcluir.Click += new System.EventHandler(this.btnexcluir_Click);
             // 
@@ -239,7 +239,7 @@
             this.btnsalvar.Name = "btnsalvar";
             this.btnsalvar.Size = new System.Drawing.Size(100, 30);
             this.btnsalvar.TabIndex = 16;
-            this.btnsalvar.Text = "salvar";
+            this.btnsalvar.Text = "Salvar";
             this.btnsalvar.UseVisualStyleBackColor = true;
             this.btnsalvar.Click += new System.EventHandler(this.btnsalvar_Click);
             // 
@@ -251,7 +251,7 @@
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(100, 30);
             this.btncancelar.TabIndex = 17;
-            this.btncancelar.Text = "cancelar";
+            this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
             this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
@@ -263,7 +263,7 @@
             this.btnpesquisar.Name = "btnpesquisar";
             this.btnpesquisar.Size = new System.Drawing.Size(100, 30);
             this.btnpesquisar.TabIndex = 18;
-            this.btnpesquisar.Text = "pesquisar";
+            this.btnpesquisar.Text = "Pesquisar";
             this.btnpesquisar.UseVisualStyleBackColor = true;
             this.btnpesquisar.Click += new System.EventHandler(this.btnpesquisar_Click);
             // 
@@ -275,7 +275,7 @@
             this.btnimprimir.Name = "btnimprimir";
             this.btnimprimir.Size = new System.Drawing.Size(100, 30);
             this.btnimprimir.TabIndex = 19;
-            this.btnimprimir.Text = "imprimir";
+            this.btnimprimir.Text = "Imprimir";
             this.btnimprimir.UseVisualStyleBackColor = true;
             this.btnimprimir.Click += new System.EventHandler(this.btnimprimir_Click);
             // 
@@ -287,7 +287,7 @@
             this.btnsair.Name = "btnsair";
             this.btnsair.Size = new System.Drawing.Size(100, 30);
             this.btnsair.TabIndex = 21;
-            this.btnsair.Text = "sair";
+            this.btnsair.Text = "Sair";
             this.btnsair.UseVisualStyleBackColor = true;
             this.btnsair.Click += new System.EventHandler(this.btnsair_Click);
             // 

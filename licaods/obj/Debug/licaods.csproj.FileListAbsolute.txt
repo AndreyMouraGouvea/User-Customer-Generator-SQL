@@ -82,3 +82,23 @@ C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dad
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.csproj.GenerateResource.Cache
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.exe
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados - Andrey Gouvêa\licaods\obj\Debug\licaods.pdb
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\bin\Debug\licaods.exe.config
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.exe
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.pdb
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\bin\Debug\cadastro.mdf
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\bin\Debug\cadastro_log.ldf
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\bin\Debug\licaods.exe
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\bin\Debug\licaods.pdb
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.frmcliente.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.frmfornecedor.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.frmPesquisaCliente.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.frmPesquisaFornecedor.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.FrmPesquisaProduto.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.frmPesquisaUsuario.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.frmPrincipal.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.frmproduto.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.frmusuario.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.login.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.Properties.Resources.resources
+C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Debug\licaods.csproj.GenerateResource.Cache

@@ -70,56 +70,62 @@
             // cd_produtoLabel
             // 
             cd_produtoLabel.AutoSize = true;
+            cd_produtoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             cd_produtoLabel.Location = new System.Drawing.Point(27, 25);
             cd_produtoLabel.Name = "cd_produtoLabel";
-            cd_produtoLabel.Size = new System.Drawing.Size(61, 13);
+            cd_produtoLabel.Size = new System.Drawing.Size(59, 20);
             cd_produtoLabel.TabIndex = 1;
-            cd_produtoLabel.Text = "cd produto:";
+            cd_produtoLabel.Text = "Código";
             // 
             // nm_produtoLabel
             // 
             nm_produtoLabel.AutoSize = true;
+            nm_produtoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             nm_produtoLabel.Location = new System.Drawing.Point(27, 51);
             nm_produtoLabel.Name = "nm_produtoLabel";
-            nm_produtoLabel.Size = new System.Drawing.Size(63, 13);
+            nm_produtoLabel.Size = new System.Drawing.Size(65, 20);
             nm_produtoLabel.TabIndex = 3;
-            nm_produtoLabel.Text = "nm produto:";
+            nm_produtoLabel.Text = "Produto";
             // 
             // nm_categoriaLabel
             // 
             nm_categoriaLabel.AutoSize = true;
+            nm_categoriaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             nm_categoriaLabel.Location = new System.Drawing.Point(27, 77);
             nm_categoriaLabel.Name = "nm_categoriaLabel";
-            nm_categoriaLabel.Size = new System.Drawing.Size(71, 13);
+            nm_categoriaLabel.Size = new System.Drawing.Size(78, 20);
             nm_categoriaLabel.TabIndex = 5;
-            nm_categoriaLabel.Text = "nm categoria:";
+            nm_categoriaLabel.Text = "Categoria";
             // 
             // qt_estoqueLabel
             // 
             qt_estoqueLabel.AutoSize = true;
+            qt_estoqueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             qt_estoqueLabel.Location = new System.Drawing.Point(27, 103);
             qt_estoqueLabel.Name = "qt_estoqueLabel";
-            qt_estoqueLabel.Size = new System.Drawing.Size(60, 13);
+            qt_estoqueLabel.Size = new System.Drawing.Size(69, 20);
             qt_estoqueLabel.TabIndex = 7;
-            qt_estoqueLabel.Text = "qt estoque:";
+            qt_estoqueLabel.Text = "Estoque";
             // 
             // vl_custoLabel
             // 
             vl_custoLabel.AutoSize = true;
+            vl_custoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             vl_custoLabel.Location = new System.Drawing.Point(27, 129);
             vl_custoLabel.Name = "vl_custoLabel";
-            vl_custoLabel.Size = new System.Drawing.Size(47, 13);
+            vl_custoLabel.Size = new System.Drawing.Size(51, 20);
             vl_custoLabel.TabIndex = 9;
-            vl_custoLabel.Text = "vl custo:";
+            vl_custoLabel.Text = "Custo";
             // 
             // vl_vendaLabel
             // 
             vl_vendaLabel.AutoSize = true;
+            vl_vendaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             vl_vendaLabel.Location = new System.Drawing.Point(27, 155);
             vl_vendaLabel.Name = "vl_vendaLabel";
-            vl_vendaLabel.Size = new System.Drawing.Size(51, 13);
+            vl_vendaLabel.Size = new System.Drawing.Size(56, 20);
             vl_vendaLabel.TabIndex = 11;
-            vl_vendaLabel.Text = "vl venda:";
+            vl_vendaLabel.Text = "Venda";
             // 
             // cadastroDataSet
             // 
@@ -138,49 +144,55 @@
             // cd_produtoTextBox
             // 
             this.cd_produtoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbprodutoBindingSource, "cd_produto", true));
+            this.cd_produtoTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cd_produtoTextBox.Location = new System.Drawing.Point(104, 22);
             this.cd_produtoTextBox.Name = "cd_produtoTextBox";
-            this.cd_produtoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.cd_produtoTextBox.Size = new System.Drawing.Size(100, 26);
             this.cd_produtoTextBox.TabIndex = 2;
             // 
             // nm_produtoTextBox
             // 
             this.nm_produtoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbprodutoBindingSource, "nm_produto", true));
+            this.nm_produtoTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nm_produtoTextBox.Location = new System.Drawing.Point(104, 48);
             this.nm_produtoTextBox.Name = "nm_produtoTextBox";
-            this.nm_produtoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nm_produtoTextBox.Size = new System.Drawing.Size(100, 26);
             this.nm_produtoTextBox.TabIndex = 4;
             // 
             // nm_categoriaTextBox
             // 
             this.nm_categoriaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbprodutoBindingSource, "nm_categoria", true));
+            this.nm_categoriaTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nm_categoriaTextBox.Location = new System.Drawing.Point(104, 74);
             this.nm_categoriaTextBox.Name = "nm_categoriaTextBox";
-            this.nm_categoriaTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nm_categoriaTextBox.Size = new System.Drawing.Size(100, 26);
             this.nm_categoriaTextBox.TabIndex = 6;
             // 
             // qt_estoqueTextBox
             // 
             this.qt_estoqueTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbprodutoBindingSource, "qt_estoque", true));
+            this.qt_estoqueTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.qt_estoqueTextBox.Location = new System.Drawing.Point(104, 100);
             this.qt_estoqueTextBox.Name = "qt_estoqueTextBox";
-            this.qt_estoqueTextBox.Size = new System.Drawing.Size(100, 20);
+            this.qt_estoqueTextBox.Size = new System.Drawing.Size(100, 26);
             this.qt_estoqueTextBox.TabIndex = 8;
             // 
             // vl_custoTextBox
             // 
             this.vl_custoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbprodutoBindingSource, "vl_custo", true));
+            this.vl_custoTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vl_custoTextBox.Location = new System.Drawing.Point(104, 126);
             this.vl_custoTextBox.Name = "vl_custoTextBox";
-            this.vl_custoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.vl_custoTextBox.Size = new System.Drawing.Size(100, 26);
             this.vl_custoTextBox.TabIndex = 10;
             // 
             // vl_vendaTextBox
             // 
             this.vl_vendaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbprodutoBindingSource, "vl_venda", true));
+            this.vl_vendaTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vl_vendaTextBox.Location = new System.Drawing.Point(104, 152);
             this.vl_vendaTextBox.Name = "vl_vendaTextBox";
-            this.vl_vendaTextBox.Size = new System.Drawing.Size(100, 20);
+            this.vl_vendaTextBox.Size = new System.Drawing.Size(100, 26);
             this.vl_vendaTextBox.TabIndex = 12;
             // 
             // btnsair
@@ -191,7 +203,7 @@
             this.btnsair.Name = "btnsair";
             this.btnsair.Size = new System.Drawing.Size(100, 30);
             this.btnsair.TabIndex = 31;
-            this.btnsair.Text = "sair";
+            this.btnsair.Text = "Sair";
             this.btnsair.UseVisualStyleBackColor = true;
             this.btnsair.Click += new System.EventHandler(this.btnsair_Click);
             // 
@@ -203,7 +215,7 @@
             this.btnimprimir.Name = "btnimprimir";
             this.btnimprimir.Size = new System.Drawing.Size(100, 30);
             this.btnimprimir.TabIndex = 30;
-            this.btnimprimir.Text = "imprimir";
+            this.btnimprimir.Text = "Imprimir";
             this.btnimprimir.UseVisualStyleBackColor = true;
             this.btnimprimir.Click += new System.EventHandler(this.btnimprimir_Click);
             // 
@@ -215,7 +227,7 @@
             this.btnpesquisar.Name = "btnpesquisar";
             this.btnpesquisar.Size = new System.Drawing.Size(100, 30);
             this.btnpesquisar.TabIndex = 29;
-            this.btnpesquisar.Text = "pesquisar";
+            this.btnpesquisar.Text = "Pesquisar ";
             this.btnpesquisar.UseVisualStyleBackColor = true;
             this.btnpesquisar.Click += new System.EventHandler(this.btnpesquisar_Click);
             // 
@@ -227,7 +239,7 @@
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(100, 30);
             this.btncancelar.TabIndex = 28;
-            this.btncancelar.Text = "cancelar";
+            this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
             this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
@@ -239,7 +251,7 @@
             this.btnsalvar.Name = "btnsalvar";
             this.btnsalvar.Size = new System.Drawing.Size(100, 30);
             this.btnsalvar.TabIndex = 27;
-            this.btnsalvar.Text = "salvar";
+            this.btnsalvar.Text = "Salvar";
             this.btnsalvar.UseVisualStyleBackColor = true;
             this.btnsalvar.Click += new System.EventHandler(this.btnsalvar_Click);
             // 
@@ -251,7 +263,7 @@
             this.btnexcluir.Name = "btnexcluir";
             this.btnexcluir.Size = new System.Drawing.Size(100, 30);
             this.btnexcluir.TabIndex = 26;
-            this.btnexcluir.Text = "excluir";
+            this.btnexcluir.Text = "Excluir";
             this.btnexcluir.UseVisualStyleBackColor = true;
             this.btnexcluir.Click += new System.EventHandler(this.btnexcluir_Click);
             // 
@@ -263,7 +275,7 @@
             this.btnalterar.Name = "btnalterar";
             this.btnalterar.Size = new System.Drawing.Size(100, 30);
             this.btnalterar.TabIndex = 25;
-            this.btnalterar.Text = "alterar";
+            this.btnalterar.Text = "Alterar";
             this.btnalterar.UseVisualStyleBackColor = true;
             this.btnalterar.Click += new System.EventHandler(this.btnalterar_Click);
             // 
@@ -275,7 +287,7 @@
             this.btnnovo.Name = "btnnovo";
             this.btnnovo.Size = new System.Drawing.Size(100, 30);
             this.btnnovo.TabIndex = 24;
-            this.btnnovo.Text = "novo";
+            this.btnnovo.Text = "Novo";
             this.btnnovo.UseVisualStyleBackColor = true;
             this.btnnovo.Click += new System.EventHandler(this.btnnovo_Click);
             // 
@@ -287,7 +299,7 @@
             this.btnproximo.Name = "btnproximo";
             this.btnproximo.Size = new System.Drawing.Size(100, 30);
             this.btnproximo.TabIndex = 23;
-            this.btnproximo.Text = "proximo";
+            this.btnproximo.Text = "Proximo";
             this.btnproximo.UseVisualStyleBackColor = true;
             this.btnproximo.Click += new System.EventHandler(this.btnproximo_Click);
             // 
@@ -299,7 +311,7 @@
             this.btnanterior.Name = "btnanterior";
             this.btnanterior.Size = new System.Drawing.Size(100, 30);
             this.btnanterior.TabIndex = 22;
-            this.btnanterior.Text = "anterior";
+            this.btnanterior.Text = "Anterior";
             this.btnanterior.UseVisualStyleBackColor = true;
             this.btnanterior.Click += new System.EventHandler(this.btnanterior_Click);
             // 
@@ -346,7 +358,7 @@
             this.Controls.Add(vl_vendaLabel);
             this.Controls.Add(this.vl_vendaTextBox);
             this.Name = "frmproduto";
-            this.Text = "frmproduto";
+            this.Text = "Cadastro de Produto";
             this.Load += new System.EventHandler(this.frmproduto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cadastroDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbprodutoBindingSource)).EndInit();

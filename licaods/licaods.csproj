@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>licaods</RootNamespace>
     <AssemblyName>licaods</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <PublishUrl>publish\</PublishUrl>
@@ -47,6 +47,26 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
@@ -120,6 +140,12 @@
     <Compile Include="frmproduto.Designer.cs">
       <DependentUpon>frmproduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmsobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmsobre.Designer.cs">
+      <DependentUpon>frmsobre.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmusuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +184,9 @@
     <EmbeddedResource Include="frmproduto.resx">
       <DependentUpon>frmproduto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmsobre.resx">
+      <DependentUpon>frmsobre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmusuario.resx">
       <DependentUpon>frmusuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,6 +201,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="cadastroDataSet.xsc">
       <DependentUpon>cadastroDataSet.xsd</DependentUpon>

@@ -170,5 +170,20 @@ namespace licaods
                 tbfornecedorBindingSource.Position = reg;
             }
         }
+
+        private void sg_tipoLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ds_emailLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cd_ieLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

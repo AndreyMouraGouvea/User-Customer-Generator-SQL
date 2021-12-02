@@ -38,11 +38,10 @@
             System.Windows.Forms.Label cd_cepLabel;
             System.Windows.Forms.Label sg_estadoLabel;
             System.Windows.Forms.Label cd_telefoneLabel;
-            System.Windows.Forms.Label cd_cpfLabel;
             System.Windows.Forms.Label cd_rgLabel;
             System.Windows.Forms.Label ds_emailLabel;
-            System.Windows.Forms.Label cd_cpfLabel1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmcliente));
+            System.Windows.Forms.Label cd_cpfLabel1;
             this.btnsair = new System.Windows.Forms.Button();
             this.btnimprimir = new System.Windows.Forms.Button();
             this.btnpesquisar = new System.Windows.Forms.Button();
@@ -65,13 +64,12 @@
             this.cd_cepTextBox = new System.Windows.Forms.TextBox();
             this.sg_estadoTextBox = new System.Windows.Forms.TextBox();
             this.cd_telefoneTextBox = new System.Windows.Forms.TextBox();
-            this.cd_cpfTextBox = new System.Windows.Forms.TextBox();
             this.cd_rgTextBox = new System.Windows.Forms.TextBox();
             this.ds_emailTextBox = new System.Windows.Forms.TextBox();
             this.tableAdapterManager = new licaods.cadastroDataSetTableAdapters.TableAdapterManager();
-            this.cd_cpfMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.cd_cpfMaskedTextBox = new System.Windows.Forms.MaskedTextBox();
             cd_clienteLabel = new System.Windows.Forms.Label();
             nm_clienteLabel = new System.Windows.Forms.Label();
             ds_enderecoLabel = new System.Windows.Forms.Label();
@@ -81,7 +79,6 @@
             cd_cepLabel = new System.Windows.Forms.Label();
             sg_estadoLabel = new System.Windows.Forms.Label();
             cd_telefoneLabel = new System.Windows.Forms.Label();
-            cd_cpfLabel = new System.Windows.Forms.Label();
             cd_rgLabel = new System.Windows.Forms.Label();
             ds_emailLabel = new System.Windows.Forms.Label();
             cd_cpfLabel1 = new System.Windows.Forms.Label();
@@ -179,16 +176,6 @@
             cd_telefoneLabel.TabIndex = 48;
             cd_telefoneLabel.Text = "Telefone";
             // 
-            // cd_cpfLabel
-            // 
-            cd_cpfLabel.AutoSize = true;
-            cd_cpfLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            cd_cpfLabel.Location = new System.Drawing.Point(37, 253);
-            cd_cpfLabel.Name = "cd_cpfLabel";
-            cd_cpfLabel.Size = new System.Drawing.Size(40, 20);
-            cd_cpfLabel.TabIndex = 50;
-            cd_cpfLabel.Text = "CPF";
-            // 
             // cd_rgLabel
             // 
             cd_rgLabel.AutoSize = true;
@@ -208,15 +195,6 @@
             ds_emailLabel.Size = new System.Drawing.Size(63, 20);
             ds_emailLabel.TabIndex = 54;
             ds_emailLabel.Text = "E-MAIL";
-            // 
-            // cd_cpfLabel1
-            // 
-            cd_cpfLabel1.AutoSize = true;
-            cd_cpfLabel1.Location = new System.Drawing.Point(407, 244);
-            cd_cpfLabel1.Name = "cd_cpfLabel1";
-            cd_cpfLabel1.Size = new System.Drawing.Size(40, 13);
-            cd_cpfLabel1.TabIndex = 55;
-            cd_cpfLabel1.Text = "cd cpf:";
             // 
             // btnsair
             // 
@@ -433,15 +411,6 @@
             this.cd_telefoneTextBox.Size = new System.Drawing.Size(100, 26);
             this.cd_telefoneTextBox.TabIndex = 49;
             // 
-            // cd_cpfTextBox
-            // 
-            this.cd_cpfTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbclienteBindingSource, "cd_cpf", true));
-            this.cd_cpfTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cd_cpfTextBox.Location = new System.Drawing.Point(112, 250);
-            this.cd_cpfTextBox.Name = "cd_cpfTextBox";
-            this.cd_cpfTextBox.Size = new System.Drawing.Size(100, 26);
-            this.cd_cpfTextBox.TabIndex = 51;
-            // 
             // cd_rgTextBox
             // 
             this.cd_rgTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbclienteBindingSource, "cd_rg", true));
@@ -469,15 +438,6 @@
             this.tableAdapterManager.tbusuarioTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = licaods.cadastroDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // cd_cpfMaskedTextBox
-            // 
-            this.cd_cpfMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbclienteBindingSource, "cd_cpf", true));
-            this.cd_cpfMaskedTextBox.Location = new System.Drawing.Point(453, 241);
-            this.cd_cpfMaskedTextBox.Mask = "000,000,000-00";
-            this.cd_cpfMaskedTextBox.Name = "cd_cpfMaskedTextBox";
-            this.cd_cpfMaskedTextBox.Size = new System.Drawing.Size(100, 20);
-            this.cd_cpfMaskedTextBox.TabIndex = 56;
-            // 
             // printDocument1
             // 
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
@@ -492,6 +452,26 @@
             this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
+            // 
+            // cd_cpfLabel1
+            // 
+            cd_cpfLabel1.AutoSize = true;
+            cd_cpfLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            cd_cpfLabel1.Location = new System.Drawing.Point(38, 253);
+            cd_cpfLabel1.Name = "cd_cpfLabel1";
+            cd_cpfLabel1.Size = new System.Drawing.Size(40, 20);
+            cd_cpfLabel1.TabIndex = 57;
+            cd_cpfLabel1.Text = "CPF";
+            // 
+            // cd_cpfMaskedTextBox
+            // 
+            this.cd_cpfMaskedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbclienteBindingSource, "cd_cpf", true));
+            this.cd_cpfMaskedTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cd_cpfMaskedTextBox.Location = new System.Drawing.Point(112, 250);
+            this.cd_cpfMaskedTextBox.Mask = "000,000,000-00";
+            this.cd_cpfMaskedTextBox.Name = "cd_cpfMaskedTextBox";
+            this.cd_cpfMaskedTextBox.Size = new System.Drawing.Size(100, 26);
+            this.cd_cpfMaskedTextBox.TabIndex = 58;
             // 
             // frmcliente
             // 
@@ -518,8 +498,6 @@
             this.Controls.Add(this.sg_estadoTextBox);
             this.Controls.Add(cd_telefoneLabel);
             this.Controls.Add(this.cd_telefoneTextBox);
-            this.Controls.Add(cd_cpfLabel);
-            this.Controls.Add(this.cd_cpfTextBox);
             this.Controls.Add(cd_rgLabel);
             this.Controls.Add(this.cd_rgTextBox);
             this.Controls.Add(ds_emailLabel);
@@ -568,12 +546,11 @@
         private System.Windows.Forms.TextBox cd_cepTextBox;
         private System.Windows.Forms.TextBox sg_estadoTextBox;
         private System.Windows.Forms.TextBox cd_telefoneTextBox;
-        private System.Windows.Forms.TextBox cd_cpfTextBox;
         private System.Windows.Forms.TextBox cd_rgTextBox;
         private System.Windows.Forms.TextBox ds_emailTextBox;
         private cadastroDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.MaskedTextBox cd_cpfMaskedTextBox;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Windows.Forms.MaskedTextBox cd_cpfMaskedTextBox;
     }
 }

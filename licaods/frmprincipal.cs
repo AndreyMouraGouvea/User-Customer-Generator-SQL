@@ -62,5 +62,11 @@ namespace licaods
         {
 
         }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmsobre fs = new frmsobre();
+            fs.ShowDialog();
+        }
     }
 }
