@@ -17,6 +17,7 @@ C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Da
 C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Release\licaods.csproj.GenerateResource.Cache
 C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Release\licaods.exe
 C:\Users\Andrey\Documents\Visual Studio 2015\Projects\Projeto Ds com Banco de Dados\licaods\obj\Release\licaods.pdb
+<<<<<<< HEAD
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\licaods\bin\Release\licaods.exe.config
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\licaods\obj\Release\licaods.exe
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\licaods\obj\Release\licaods.pdb
@@ -59,3 +60,5 @@ C:\Users\Aluno\Desktop\p1\licaods\bin\Release\cadastro.mdf
 C:\Users\Aluno\Desktop\p1\licaods\bin\Release\cadastro_log.ldf
 C:\Users\Aluno\Desktop\p1\licaods\bin\Release\licaods.exe
 C:\Users\Aluno\Desktop\p1\licaods\bin\Release\licaods.pdb
+=======
+>>>>>>> c8a3197543d5fa3458d3d8e1d9259bd24df9ac7a
